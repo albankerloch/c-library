@@ -6,7 +6,7 @@
 /*   By: akerloc- <akerloc-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/09 19:14:29 by akerloc-          #+#    #+#             */
-/*   Updated: 2019/10/11 16:02:24 by akerloc-         ###   ########.fr       */
+/*   Updated: 2019/10/09 19:17:15 by akerloc-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	size_t	i;
 	char	*d;
 
-	if (s == NULL || f == NULL)
-		return (NULL);
 	if (!(d = (char*)malloc(sizeof(char) * (ft_strlen(s) + 1))))
 		return (NULL);
 	i = 0;
