@@ -58,7 +58,7 @@ Use this command in a terminal :
 make
 ```
 
-(make and clang needed)
+(make and gcc needed)
 
 ## Usage
 
