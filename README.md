@@ -62,7 +62,12 @@ make
 
 ## Usage
 
-- Add #include "libft.h" in a C file
+- Add #include "libft.h" in a C file (like main.c) :
+
+```bash
+gcc -I. -L. main.c -lft. 
+./a.out
+```
 
 
 #### Author : Alban Kerloc'h
