@@ -1,4 +1,4 @@
-/* updated: 11/10/2019 */
+/* updated: 30/07/2023 */
 /* main.c by alban kerloc'h */
 
 #include "libft.h"
