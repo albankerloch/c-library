@@ -1,3 +1,6 @@
+/* updated: 11/10/2019 */
+/* main.c by alban kerloc'h */
+
 #include "libft.h"
 #include <stdlib.h>
 #include <stdio.h>
