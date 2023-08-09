@@ -1,8 +1,13 @@
-/* updated: 11/10/2019 */
-/* ft_split.c by alban kerloc'h */
+/**
+ * @file ft_split.c
+ * @author alban kerloc'h
+ * @date 11/10/2019
+ * @version 1.0
+ */
 
 #include "libft.h"
 
+/** @brief Find the next separator */
 static int		ft_next_sep(char *str, char to_find)
 {
 	int i;
@@ -17,6 +22,7 @@ static int		ft_next_sep(char *str, char to_find)
 	return (-1);
 }
 
+/** @brief Replication of the strndup function */
 static char		*ft_strndup(char *src, int j)
 {
 	char	*s;
@@ -33,6 +39,7 @@ static char		*ft_strndup(char *src, int j)
 	return (s);
 }
 
+/** @brief Length counter function */
 static int		ft_count(char *str, char charset)
 {
 	size_t	i;
@@ -57,6 +64,7 @@ static int		ft_count(char *str, char charset)
 	return (k);
 }
 
+/** @brief Replication of the split function */
 char			**ft_split(char const *st, char charset)
 {
 	size_t	i;

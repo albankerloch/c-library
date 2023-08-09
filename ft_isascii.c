@@ -1,8 +1,13 @@
-/* updated: 11/10/2019 */
-/* ft_isascii.c by alban kerloc'h */
+/**
+ * @file ft_isascii.c
+ * @author alban kerloc'h
+ * @date 11/10/2019
+ * @version 1.0
+ */
 
 #include "libft.h"
 
+/** @brief Replication of the isascii function */
 int	ft_isascii(int i)
 {
 	if (i >= 0 && i <= 127)

@@ -1,8 +1,13 @@
-/* updated: 11/10/2019 */
-/* ft_strjoin.c by alban kerloc'h */
+/**
+ * @file ft_strjoin.c
+ * @author alban kerloc'h
+ * @date 11/10/2019
+ * @version 1.0
+ */
 
 #include "libft.h"
 
+/** @brief Replication of the strjoin function */
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	size_t	j;

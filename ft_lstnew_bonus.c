@@ -1,8 +1,13 @@
-/* updated: 11/10/2019 */
-/* ft_lstnew_bonus.c by alban kerloc'h */
+/**
+ * @file ft_lstnew_bonus.c
+ * @author alban kerloc'h
+ * @date 11/10/2019
+ * @version 1.0
+ */
 
 #include "libft.h"
 
+/** @brief Create an new node */
 t_list	*ft_lstnew(void *content)
 {
 	t_list	*lt;

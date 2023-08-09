@@ -1,5 +1,9 @@
-/* updated: 11/10/2019 */
-/* ft_strnstr.c by alban kerloc'h */
+/**
+ * @file ft_strnstr.c
+ * @author alban kerloc'h
+ * @date 11/10/2019
+ * @version 1.0
+ */
 
 #include "libft.h"
 

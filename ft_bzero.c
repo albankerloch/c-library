@@ -1,8 +1,13 @@
-/* updated: 11/10/2019 */
-/* ft_bzero.c by alban kerloc'h */
+/**
+ * @file ft_bzero.c
+ * @author alban kerloc'h
+ * @date 11/10/2019
+ * @version 1.0
+ */
 
 #include "libft.h"
 
+/** @brief Replication of the bzero function */
 void	*ft_bzero(void *str, size_t n)
 {
 	size_t			i;

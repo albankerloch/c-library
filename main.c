@@ -1,5 +1,9 @@
-/* updated: 30/07/2023 */
-/* main.c by alban kerloc'h */
+/**
+ * @file main.c
+ * @author alban kerloc'h
+ * @date 11/10/2019
+ * @version 1.0
+ */
 
 #include "libft.h"
 #include <stdlib.h>

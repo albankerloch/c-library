@@ -1,8 +1,13 @@
-/* updated: 11/10/2019 */
-/* ft_calloc.c by alban kerloc'h */
+/**
+ * @file ft_calloc.c
+ * @author alban kerloc'h
+ * @date 11/10/2019
+ * @version 1.0
+ */
 
 #include "libft.h"
 
+/** @brief Replication of the calloc function */
 void	*ft_calloc(size_t n, size_t s)
 {
 	void *p;

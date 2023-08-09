@@ -1,8 +1,13 @@
-/* updated: 11/10/2019 */
-/* ft_putnbr_fd.c by alban kerloc'h */
+/**
+ * @file ft_putnbr_fd.c
+ * @author alban kerloc'h
+ * @date 11/10/2019
+ * @version 1.0
+ */
 
 #include "libft.h"
 
+/** @brief Calculate a power of ten */
 static int	ft_puiss_dix(int n)
 {
 	int result;
@@ -18,6 +23,7 @@ static int	ft_puiss_dix(int n)
 	return (result);
 }
 
+/** @brief Write a number (recursively) */
 static void	ft_rec(int a, int n, int fd)
 {
 	char	c;
@@ -34,6 +40,7 @@ static void	ft_rec(int a, int n, int fd)
 	}
 }
 
+/** @brief Replication of the putnbr_fd function */
 void		ft_putnbr_fd(int a, int fd)
 {
 	int n;

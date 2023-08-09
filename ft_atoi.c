@@ -1,8 +1,13 @@
-/* updated: 11/10/2019 */
-/* ft_atoi.c by alban kerloc'h */
+/**
+ * @file ft_atoi.c
+ * @author alban kerloc'h
+ * @date 11/10/2019
+ * @version 1.0
+ */
 
 #include "libft.h"
 
+/** @brief Replication of the isspace function */
 static int	ft_isspace(char c)
 {
 	if (c == '\t' || c == '\n' || c == '\v' ||
@@ -12,6 +17,7 @@ static int	ft_isspace(char c)
 		return (0);
 }
 
+/** @brief Replication of the atoi function */
 int			ft_atoi(const char *str)
 {
 	int		i;

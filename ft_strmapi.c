@@ -1,5 +1,9 @@
-/* updated: 11/10/2019 */
-/* ft_strmapi.c by alban kerloc'h */
+/**
+ * @file ft_strmapi.c
+ * @author alban kerloc'h
+ * @date 11/10/2019
+ * @version 1.0
+ */
 
 #include "libft.h"
 

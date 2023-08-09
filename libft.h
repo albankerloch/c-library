@@ -1,5 +1,9 @@
-/* updated: 11/10/2019 */
-/* ft_strlen.c by alban kerloc'h */
+/**
+ * @file libft.h
+ * @author alban kerloc'h
+ * @date 11/10/2019
+ * @version 1.0
+ */
 
 #ifndef LIBFT_H
 # define LIBFT_H

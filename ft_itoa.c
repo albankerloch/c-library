@@ -1,8 +1,13 @@
-/* updated: 11/10/2019 */
-/* ft_itoa.c by alban kerloc'h */
+/**
+ * @file ft_itoa.c
+ * @author alban kerloc'h
+ * @date 11/10/2019
+ * @version 1.0
+ */
 
 #include "libft.h"
 
+/** @brief Replication of the strncat function */
 static char		*ft_strncat(char *dest, char *src, unsigned int nb)
 {
 	int				i;
@@ -21,6 +26,7 @@ static char		*ft_strncat(char *dest, char *src, unsigned int nb)
 	return (dest);
 }
 
+/** @brief Count the number of digits of a number */
 static int		ft_count(int nbr)
 {
 	int		j;
@@ -41,6 +47,7 @@ static int		ft_count(int nbr)
 	return (j);
 }
 
+/** @brief Affect a number to a string */
 static void		ft_wbase(long n, char **s)
 {
 	long	c;
@@ -62,6 +69,7 @@ static void		ft_wbase(long n, char **s)
 	}
 }
 
+/** @brief Replication of the itoa function */
 char			*ft_itoa(int nbr)
 {
 	long	t;

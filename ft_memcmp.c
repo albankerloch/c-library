@@ -1,8 +1,13 @@
-/* updated: 11/10/2019 */
-/* ft_memcmp.c by alban kerloc'h */
+/**
+ * @file ft_memcmp.c
+ * @author alban kerloc'h
+ * @date 11/10/2019
+ * @version 1.0
+ */
 
 #include "libft.h"
 
+/** @brief Replication of the memcmp function */
 int	ft_memcmp(const void *str1, const void *str2, size_t n)
 {
 	unsigned int	i;

@@ -1,8 +1,13 @@
-/* updated: 11/10/2019 */
-/* ft_strdup.c by alban kerloc'h */
+/**
+ * @file ft_strdup.c
+ * @author alban kerloc'h
+ * @date 11/10/2019
+ * @version 1.0
+ */
 
 #include "libft.h"
 
+/** @brief Replication of the isalnum function */
 static char	*ft_strcpy(char *dest, const char *src)
 {
 	int i;
@@ -17,6 +22,7 @@ static char	*ft_strcpy(char *dest, const char *src)
 	return (dest);
 }
 
+/** @brief Replication of the strdup function */
 char		*ft_strdup(const char *src)
 {
 	char *s;

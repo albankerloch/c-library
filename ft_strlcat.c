@@ -1,8 +1,13 @@
-/* updated: 11/10/2019 */
-/* ft_strlcat.c by alban kerloc'h */
+/**
+ * @file ft_strlcat.c
+ * @author alban kerloc'h
+ * @date 11/10/2019
+ * @version 1.0
+ */
 
 #include "libft.h"
 
+/** @brief Replication of the strlcat function */
 size_t	ft_strlcat(char *dest, const char *src, size_t size)
 {
 	unsigned int	i;

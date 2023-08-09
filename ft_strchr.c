@@ -1,8 +1,13 @@
-/* updated: 11/10/2019 */
-/* ft_strchr.c by alban kerloc'h */
+/**
+ * @file ft_strchr.c
+ * @author alban kerloc'h
+ * @date 11/10/2019
+ * @version 1.0
+ */
 
 #include "libft.h"
 
+/** @brief Replication of the strchr function */
 char	*ft_strchr(const char *str, int c)
 {
 	int		i;

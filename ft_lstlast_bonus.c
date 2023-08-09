@@ -1,8 +1,13 @@
-/* updated: 11/10/2019 */
-/* ft_lstlast_bonus.c by alban kerloc'h */
+/**
+ * @file ft_lstlast_bonus.c
+ * @author alban kerloc'h
+ * @date 11/10/2019
+ * @version 1.0
+ */
 
 #include "libft.h"
 
+/** @brief Get the last element of a list */
 t_list	*ft_lstlast(t_list *begin_list)
 {
 	t_list	*lt;
