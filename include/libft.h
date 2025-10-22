@@ -38,6 +38,21 @@ int					ft_strncmp(const char *s1, const char *s2, size_t n);
 size_t				ft_strlcpy(char *dest, const char *src, size_t size);
 size_t				ft_strlcat(char *dest, const char *src, size_t size);
 char				*ft_strnstr(const char *str, const char *str2, size_t len);
+
+/**
+ * @brief Converts the initial portion of a string to its integer representation.
+ * 
+ * @details The function `ft_atoi` mimics the behavior of the standard C library 
+ * function `atoi`. It skips any leading whitespace characters, handles an 
+ * optional sign ('+' or '-'), and then converts the subsequent sequence of 
+ * digits into an integer. The conversion stops at the first non-digit 
+ * character.
+ * 
+ * @param str The string to be converted.
+ * @return int The converted integer value. If no valid conversion could be 
+ * performed, it returns 0. The behavior is undefined if the converted value
+ * is out of the range of representable values by an `int`.
+ */
 int					ft_atoi(const char *str);
 void				*ft_calloc(size_t n, size_t s);
 char				*ft_strdup(const char *src);
